@@ -4,7 +4,7 @@
  *
  * This is the template that displays on the front page only.
  *
- * @package _mbbasetheme
+ * @package _lsbasetheme
  */
 
 get_header(); ?>

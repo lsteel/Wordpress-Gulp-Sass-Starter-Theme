@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package _mbbasetheme
+ * @package _lsbasetheme
  */
 
 get_header(); ?>
@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php _mbbasetheme_post_nav(); ?>
+			<?php _lsbasetheme_post_nav(); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template

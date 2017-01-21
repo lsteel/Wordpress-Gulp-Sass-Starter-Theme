@@ -4,7 +4,7 @@
  *
  * Displays content for portfolio page layouts
  *
- * @package _mbbasetheme
+ * @package _lsbasetheme
  */
 
 get_header(); ?>

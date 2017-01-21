@@ -1,8 +1,8 @@
 <?php
 /**
- * _mbbasetheme theme functions definted in /lib/init.php
+ * _lsbasetheme theme functions definted in /lib/init.php
  *
- * @package _mbbasetheme
+ * @package _lsbasetheme
  */
 
 
@@ -12,7 +12,7 @@
 function mb_widgets_init() {
 	// Main Sidebar
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', '_mbbasetheme' ),
+		'name'          => __( 'Sidebar', '_lsbasetheme' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -82,11 +82,11 @@ function mb_imagelink_setup() {
  * Enqueue scripts
  */
 function mb_scripts() {
-	wp_enqueue_style( '_mbbasetheme-style', get_stylesheet_uri() );
+	wp_enqueue_style( '_lsbasetheme-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( '_mbbasetheme-navigation', get_template_directory_uri() . '/assets/js/vendor/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( '_lsbasetheme-navigation', get_template_directory_uri() . '/assets/js/vendor/navigation.js', array(), '20120206', true );
 
-	wp_enqueue_script( '_mbbasetheme-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/vendor/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( '_lsbasetheme-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/vendor/skip-link-focus-fix.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

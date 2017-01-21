@@ -1,8 +1,8 @@
 <?php
 /**
- * _mbbasetheme functions and definitions
+ * _lsbasetheme functions and definitions
  *
- * @package _mbbasetheme
+ * @package _lsbasetheme
  */
 
 /****************************************
