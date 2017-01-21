@@ -21,7 +21,8 @@ Based on the [Wordpress Starter Theme by Matt Banks](https://github.com/mattbank
 1. Fork it
 1. Clone it
 1. Rename it
-1. Change WP Theme intro block in `assets/styles/style.scss` to your info
+1. Change WP Theme intro block in `assets/styles/style.scss`
+1. Change basic info in the `package.json`
 1. Make sure gulp is installed globally, `npm install gulp -g`
 1. Open the copied theme folder in terminal
 1. Run `npm install`
