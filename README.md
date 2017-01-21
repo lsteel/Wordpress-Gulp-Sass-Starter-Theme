@@ -4,19 +4,36 @@ Version: 1.0
 
 ## Author:
 
-Lorin Steel ( [@lorinsteel](http://twitter.com/lorinsteel) / [lorinsteel.com](http://www.lorinsteel.com) )
+Lorin Steel
+[@lorinsteel](http://twitter.com/lorinsteel)
+[lorinsteel.com](http://www.lorinsteel.com)
 
 ## Summary
 
 WordPress Starter Theme for use as a starting template for building custom themes. Uses SCSS and AutoPrefixr, HTML5 Boilerplate with Modernizr and Normalize.css, and Gulp for all processing tasks. Tested with WordPress 3.9.1.
 
-Based on the ( [Wordpress Starter Theme by Matt Banks](https://github.com/mattbanks/WordPress-Starter-Theme/tree/master)
+Based on the [Wordpress Starter Theme by Matt Banks](https://github.com/mattbanks/WordPress-Starter-Theme/tree/master)
 
 ## Usage
 
+###The "Easy" Way
+
+1. Fork it
+1. Clone it
+1. Rename it
+1. Change WP Theme intro block in `assets/styles/style.scss` to your info
+1. Make sure gulp is installed globally, `npm install gulp -g`
+1. Open the copied theme folder in terminal
+1. Run `npm install`
+1. Run `gulp`, or `gulp styles`, or `gulp scripts`, or `gulp images`, or `gulp watch`, etc.
+
+###More info:
+
 The theme is setup to use [Gulp](http://gulpjs.com/) to compile SCSS (with source maps), run it through [AutoPrefixr](https://github.com/ai/autoprefixer), lint, concatenate and minify JavaScript (with source maps), optimize images, and [LiveReload](http://livereload.com/) the browser (with extension), with flexibility to add any additional tasks via the Gulpfile. Alternatively, you can use [CodeKit](http://incident57.com/codekit/) or whatever else you prefer to compile the SCSS and manage the JavaScript.
 
-Rename folder to your theme name, change the `style.scss` intro block to your theme information. Open the theme directory in terminal and run `npm install` to pull in all dependencies. Run `gulp` to execute tasks. Code as you will. If you have the LiveReload browser extension, it will reload after any SCSS or JS changes.
+Rename folder to your theme name, change the `assets/styles/style.scss` intro block to your theme information. Open the theme directory in terminal and run `npm install` to pull in all dependencies. Run `gulp` to execute tasks. Code away.
+
+If you have the LiveReload browser extension, it will reload after any SCSS or JS changes.
 
 - Compile `assets/styles/style.scss` to `style.css`
 - Compile `assets/styles/editor-style.scss` to `editor-style.css`
